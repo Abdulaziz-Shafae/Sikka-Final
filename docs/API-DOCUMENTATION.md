@@ -1,8 +1,26 @@
+<div align="center">
+
+<img src="sikka-logo.png" alt="SIKKA logo" width="200" />
+
+</div>
+
 # SIKKA | سكة — API Documentation
 
 > **API reference · 28 October 2026**  
-> Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-Final  
-> Reference commit: `f46a99ca3` (`main`).
+> Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-final  
+> Reference repository: `SIKKA-final`, branch `main`, commit `978bb68813`.
+
+## Project links and queue data sources
+
+| Resource | Link | Purpose |
+|---|---|---|
+| SIKKA website (public demo) | [Open SIKKA](https://sikka.up.railway.app/#home) | User-facing park planning experience; current live availability has not been rechecked here |
+| Backend source (final) | [SIKKA-final](https://github.com/Abdulaziz-Shafae/SIKKA-final) | Source of truth for the 170 backend routes documented below |
+| Frontend source | [SIKKA-front](https://github.com/Abdulaziz-Shafae/SIKKA-front) | Next.js/React application |
+| Queue analytics and data collection source | [Queue_Analytics](https://github.com/Abdulaziz-Shafae/Queue_Analytics) | Independent queue data collection and analytics project; repository link, not a verified public dashboard URL |
+| Queue-times source | [Queue-Times park 335 JSON](https://queue-times.com/parks/335/queue_times.json) | External queue/status feed used by the collection pipeline; freshness and availability vary |
+
+**Deployment note:** No independently verified public URL is available here for the analytics dashboard or data collector. Add one only after confirming its actual deployment address; do not use a GitHub code URL as a substitute for a running site.
 
 ## API at a glance
 
@@ -414,11 +432,11 @@ The controller owner or model creator is **not** automatically credited with all
 
 ## Source of truth
 
-- Backend controllers: [`src/main/java/com/example/sikka/Controller/`](https://github.com/Abdulaziz-Shafae/SIKKA/tree/main/src/main/java/com/example/sikka/Controller)
-- Request DTOs: [`DtoIn/`](https://github.com/Abdulaziz-Shafae/SIKKA/tree/main/src/main/java/com/example/sikka/DtoIn)
-- Response DTOs: [`DtoOut/`](https://github.com/Abdulaziz-Shafae/SIKKA/tree/main/src/main/java/com/example/sikka/DtoOut)
-- Security: [`SecurityConfig.java`](https://github.com/Abdulaziz-Shafae/SIKKA/blob/main/src/main/java/com/example/sikka/Config/SecurityConfig.java)
-- Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-Final
+- Backend controllers: [`src/main/java/com/example/sikka/Controller/`](https://github.com/Abdulaziz-Shafae/SIKKA-final/tree/main/src/main/java/com/example/sikka/Controller)
+- Request DTOs: [`DtoIn/`](https://github.com/Abdulaziz-Shafae/SIKKA-final/tree/main/src/main/java/com/example/sikka/DtoIn)
+- Response DTOs: [`DtoOut/`](https://github.com/Abdulaziz-Shafae/SIKKA-final/tree/main/src/main/java/com/example/sikka/DtoOut)
+- Security: [`SecurityConfig.java`](https://github.com/Abdulaziz-Shafae/SIKKA-final/blob/main/src/main/java/com/example/sikka/Config/SecurityConfig.java)
+- Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-final
 
 ---
 
