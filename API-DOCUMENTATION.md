@@ -1,7 +1,7 @@
 # SIKKA | سكة — API Documentation
 
 > **API reference · 28 October 2026**  
-> Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA  
+> Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-Final  
 > Reference commit: `f46a99ca3` (`main`).
 
 ## API at a glance
@@ -418,7 +418,7 @@ The controller owner or model creator is **not** automatically credited with all
 - Request DTOs: [`DtoIn/`](https://github.com/Abdulaziz-Shafae/SIKKA/tree/main/src/main/java/com/example/sikka/DtoIn)
 - Response DTOs: [`DtoOut/`](https://github.com/Abdulaziz-Shafae/SIKKA/tree/main/src/main/java/com/example/sikka/DtoOut)
 - Security: [`SecurityConfig.java`](https://github.com/Abdulaziz-Shafae/SIKKA/blob/main/src/main/java/com/example/sikka/Config/SecurityConfig.java)
-- Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA
+- Backend repository: https://github.com/Abdulaziz-Shafae/SIKKA-Final
 
 ---
 
