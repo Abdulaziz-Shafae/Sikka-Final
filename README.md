@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="sikka-logo.png" alt="SIKKA logo" width="200" />
+<img src="docs/sikka-logo.png" alt="SIKKA logo" width="200" />
 
 
 # SIKKA | سكة 🎢
@@ -14,7 +14,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Railway](https://img.shields.io/badge/Deployment-Railway-6b46c1?logo=railway&logoColor=white)](https://railway.com/)
 
-[Overview](#overview) · [Features](#features) · [User Journey](#user-journey) · [Architecture](#architecture) · [API Overview](#api-overview) · [API Documentation](docs/API-DOCUMENTATION.md) · [Contributions](#abdulaziz-shafae-contributions)
+[Overview](#overview) · [Features](#features) · [User Journey](#user-journey) · [Architecture](#architecture) · [API Overview](#api-overview) · [Live Website](https://sikka.up.railway.app/#home) · [API Documentation](docs/API-DOCUMENTATION.md) · [Contributions](#abdulaziz-shafae-contributions)
 
 </div>
 
@@ -460,6 +460,9 @@ The backend currently declares **170 REST endpoints across 22 controllers** on t
 
 **Full API reference:** [API Documentation — 170 routes across 22 controllers](docs/API-DOCUMENTATION.md).
 
+**Project links:** [SIKKA website](https://sikka.up.railway.app/#home) · [Backend (SIKKA-final)](https://github.com/Abdulaziz-Shafae/SIKKA-final).
+
+
 ## Data Model
 
 The project currently contains **22 JPA models** across the following areas.
@@ -489,6 +492,11 @@ The current model inventory extends beyond the original **15-model team allocati
 **Integrations:** Google Calendar OAuth/synchronization and Apple `.ics` exports; map-route and prayer-time data consumed during scheduling.
 
 **Notification work:** in-app notifications, read state, delay checks and responses. n8n delivery services were introduced by Nawaf, so this integration is shared work rather than solely credited here.
+
+**Frontend & queue analytics projects:**
+
+- **[SIKKA Frontend](https://github.com/Abdulaziz-Shafae/SIKKA-front):** Next.js, React and TypeScript web application integrating the park experience with backend services.
+- **[Queue Analytics & Data Collection](https://github.com/Abdulaziz-Shafae/Queue_Analytics):** Separate repository for collecting and analyzing ride-queue data used by the planning ecosystem.
 
 **Additional contributions:** shared visit/member endpoint implementation, cross-module integration, merge resolution, and backend regression and integration testing.
 
